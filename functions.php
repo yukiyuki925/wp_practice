@@ -2,7 +2,7 @@
 function add_files() {
 
   // リセットCSS
-  wp_enqueue_style('reset-style', get_theme_file_uri('css/reset.css'));
+  wp_enqueue_style('reset-style', get_theme_file_uri('./reset.css'));
 
   // メインCSS
   wp_enqueue_style('main-style', get_stylesheet_uri());
