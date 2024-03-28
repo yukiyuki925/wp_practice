@@ -8,16 +8,7 @@
   <meta name="format-detection" content="telephone=no,address=no,email=no" />
   <title>practice</title>
   <meta name="description" content="" />
-  <link rel="stylesheet" type="text/css" href="css/reset.css" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400;500;700&family=Noto+Sans+JP&family=Noto+Serif:wght@300&family=Roboto:wght@300&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=M+PLUS+1p:wght@100;400;500;700&family=Noto+Sans+JP&family=Noto+Serif:wght@300&family=Roboto:wght@300&display=swap"
-    rel="stylesheet" />
+  <?php wp_head(); ?>
 </head>
 
 <body>
