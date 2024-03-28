@@ -12,7 +12,8 @@ body {
 }
 
 header {
-  background-image: url("./images/interior-view-hotel-restaurant.jpg");
+  background: url(./images/interior-view-hotel-restaurant.jpg) no-repeat center
+    center/cover;
   height: 830px;
 }
 
