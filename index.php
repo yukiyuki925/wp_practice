@@ -10,7 +10,8 @@
           MILKでは、持続可能な農業を支援するオーガニックの食材を使用しています。私たちのカフェは、地球に優しい農法で育てられた新鮮な食材をお届けすることに専念しています。自然のリズムに合わせて、季節ごとの恵みを感じられるメニューを提供しています。都会の喧騒を忘れ、ゆったりとした時間をお過ごしください。
         </p>
       </div>
-      <img src="./images/green-tea-matcha-latte-white-cup.jpg" alt="green-tea" />
+      <img src="<?php echo esc_url(get_theme_file_uri("./images/green-tea-matcha-latte-white-cup.jpg")); ?>"
+        alt="<?php bloginfo('name'); ?>" />
     </div>
   </section>
 
