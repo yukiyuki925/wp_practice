@@ -324,7 +324,7 @@ a {
 }
 
 .contact {
-  background: url(../images/close-up-barista-making-cappuccino-bartender-preparing-coffee-drink.jpg)
+  background: url(./images/close-up-barista-making-cappuccino-bartender-preparing-coffee-drink.jpg)
     no-repeat center center/cover;
   height: 622px;
   max-width: 100%;
@@ -428,7 +428,7 @@ footer p {
 
 @media screen and (max-width: 920px) {
   header {
-    background: url(../images/interior-view-hotel-restaurant.jpg) no-repeat
+    background: url(./images/interior-view-hotel-restaurant.jpg) no-repeat
       center center/cover;
     height: 486px;
   }
@@ -510,7 +510,7 @@ footer p {
   }
 
   .middleVisual {
-    background: url(../images/hearty-highcalorie-breakfast-delicious-mouthwatering-bruschetta-with-fried-eggs-herbs-breakfast-with-cup-aromatic-coffee.jpg)
+    background: url(./images/hearty-highcalorie-breakfast-delicious-mouthwatering-bruschetta-with-fried-eggs-herbs-breakfast-with-cup-aromatic-coffee.jpg)
       no-repeat center center/cover;
     height: 104px;
   }
@@ -632,7 +632,7 @@ footer p {
   }
 
   .shadow {
-    background: url(../images/close-up-barista-making-cappuccino-bartender-preparing-coffee-drink.jpg)
+    background: url(./images/close-up-barista-making-cappuccino-bartender-preparing-coffee-drink.jpg)
       no-repeat center center/cover;
     height: 171px;
     max-width: 100%;

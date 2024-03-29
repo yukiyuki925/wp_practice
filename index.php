@@ -67,14 +67,17 @@
         </article>
 
         <article>
-          <img src="./images/ice-cream-with-mixed-fruit.jpg" alt="family" />
+          <img src="<?php echo esc_url(get_theme_file_uri("./images/ice-cream-with-mixed-fruit.jpg")); ?>"
+            alt="fruit" />
           <p>春の新メニューが登場！</p>
           <span class="date">2022.03.01</span>
           <span class="info">INFO</span>
         </article>
 
         <article>
-          <img src="./images/fuji-mountain-cherry-blossoms-spring-japan.jpg" alt="family" />
+          <img
+            src="<?php echo esc_url(get_theme_file_uri("./images/fuji-mountain-cherry-blossoms-spring-japan.jpg")); ?>"
+            alt="fuji" />
           <p>カフェからの環境保護活動について</p>
           <span class="date">2022.02.22</span>
           <span class="info">INFO</span>

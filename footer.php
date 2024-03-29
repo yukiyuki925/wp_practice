@@ -1,6 +1,6 @@
 <footer>
   <div class="footer-wrapper">
-    <img src="./images/logo-2.png" alt="logo2" />
+    <img src="<?php echo esc_url(get_theme_file_uri("./images/logo-2.png")); ?>"" alt="logo2" />
     <nav>
       <ul>
         <li><a href="#">CONCEPT</a></li>
