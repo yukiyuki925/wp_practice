@@ -20,7 +20,8 @@
     <h1>- <span>MENU</span> -</h1>
     <div class="menu-wrapper">
       <div class="menu-detail">
-        <img class="chocolate-croissants" src="./images/chocolate-croissants-black-background.jpg"
+        <img class="chocolate-croissants"
+          src="<?php echo esc_url(get_theme_file_uri("./images/chocolate-croissants-black-background.jpg")); ?>"
           alt="chocolate-croissants" />
         <div class="menu-sentence">
           <p class="food">FOOD</p>
@@ -28,7 +29,7 @@
             地元の農家と協力し、毎日届けられる旬の食材を使った料理をお楽しみいただけます。食材本来の味を活かしたメニューを提供しています。
           </p>
           <div class="view">
-            <img src="./images/arrow.png" alt="arrow" />
+            <img src="<?php echo esc_url(get_theme_file_uri("./images/arrow.png")); ?>" alt="arrow" />
             <a href="#">VIEW MORE</a>
           </div>
         </div>
@@ -41,14 +42,14 @@
             オーガニックのコーヒー豆を中心に、ハーブティーや新鮮なスムージーまで、心と体を癒すドリンクを取り揃えています。
           </p>
           <div class="view">
-            <img src="./images/arrow.png" alt="arrow" />
+            <img src="<?php echo esc_url(get_theme_file_uri("./images/arrow.png")); ?>" alt="arrow" />
             <a href="#">VIEW MORE</a>
           </div>
         </div>
 
         <img class="chocolate-croissants"
-          src="./images/set-with-white-mug-mockup-mug-with-christmas-decorations-cookie-edge.jpg"
-          alt="chocolate-croissants" />
+          src="<?php echo esc_url(get_theme_file_uri("./images/set-with-white-mug-mockup-mug-with-christmas-decorations-cookie-edge.jpg")); ?>"
+          alt=" chocolate-croissants" />
       </div>
     </div>
   </section>
@@ -59,7 +60,7 @@
       <span class="new-tag">NEW</span>
       <div class="news-contents">
         <article>
-          <img src="./images/family-lifestyle-night.jpg" alt="family" />
+          <img src="<?php echo esc_url(get_theme_file_uri("./images/family-lifestyle-night.jpg")); ?>" alt="family" />
           <p>地元農家とのコラボイベント開催！</p>
           <span class="date">2022.03.16</span>
           <span class="info">INFO</span>
